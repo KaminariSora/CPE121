@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class ex3_1{
+  public static void main(String []args){
+    int []number = new int[5];
+    Scanner sn = new Scanner(System.in);
+    System.out.print("Enter an integer,the input ends if it is 0 : ");
+    NumberPositive NUM = new NumberPositive();
+    NumberNegative num = new NumberNegative();
+    for(int i = 1;i<number.length;i++){
+      number[i] = sn.nextInt();
+    }
+    
+    num.integer = number;
+    num.Negative();
+  }
+}

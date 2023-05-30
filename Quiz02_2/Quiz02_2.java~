@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class Quiz02_2{
+  public static void main(String []args){
+    Scanner sn = new Scanner(System.in);
+    System.out.print("Enter r1's center x,y,width,height : ");
+    int x = sn.nextInt();
+    int y = sn.nextInt();
+    int width = sn.nextInt();
+    int height = sn.nextInt();
+  }
+}

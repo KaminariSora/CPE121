@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class ex2_8{
+  public static void main(String []args){
+    double num1 = 5;
+    double num2 = 2;
+    Scanner sn = new Scanner(System.in);
+    System.out.print("Enter a point with two coordinates : ");
+    Double point1 = sn.nextDouble();
+    Double point2 = sn.nextDouble();
+    Double distanceX = Math.abs(point1-0);
+    Double distanceY = Math.abs(point2-0);
+    Double x = num1/num2;
+    if(distanceX <= 10/2 && distanceY <= x){
+      System.out.printf("Point (%f,%f) is in the rectangle.",point1,point2);
+    }else{
+      System.out.printf("Point (%f,%f) is not in the rectangle.",point1,point2);
+    }
+    sn.close();
+  }
+}

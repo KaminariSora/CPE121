@@ -1,0 +1,33 @@
+class Cylinder{
+  public final double PI = 3.14;
+  private double radius;
+  private double height;
+  public Cylinder(){
+    
+  }
+  public double Cylinder(double r){
+    this.radius = r;
+  }
+  public double Cylinder(double r,double h){
+    this.radius = r;
+    this.heigth = h;
+  }
+  public double getCircleArea(){
+    
+  }
+  public double getCylinderVolume(){
+    
+  }
+  public double getSufaceAreaAllSides(){
+    
+  }
+  public double getRadius(){
+    
+  }
+  public getHeight(){
+    
+  }
+  public void printCylinder(){
+    
+  }
+}

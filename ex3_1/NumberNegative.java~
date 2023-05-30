@@ -1,0 +1,6 @@
+class NumberNegative{
+  public int[] integer = new int[5];
+  public void Negative(){
+    System.out.printf("%d",integer[2]);
+  }
+}

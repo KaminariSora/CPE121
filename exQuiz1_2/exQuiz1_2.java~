@@ -1,0 +1,9 @@
+import java.util.Scanner;
+import javax.swing.JOptionPane;
+public class exQuiz2{
+  public static void main(String []args){
+    Scanner sn = new Scanner(System.in);
+    System.out.print("Please enter a binary value in the format b7b6b5b4b3b2b0 : ");
+    int binary = sn.nextInt();
+  }
+}

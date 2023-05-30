@@ -1,0 +1,5 @@
+public class Quiz06_1{
+  public static void min(String []args){
+    
+  }
+}

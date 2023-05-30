@@ -1,0 +1,17 @@
+import java.util.Random;
+import java.util.Scanner;
+public class ex2_4{
+  public static void main(String []args){
+    Random rn = new Random();
+    Scanner sn = new Scanner(System.in);
+    int RandomNumber = rn.nextInt();
+    System.out.print("Guess  the roll [1-6] :");
+    int guess = sn.nextInt();
+    switch(RandomNumber){
+      case RandomNumber == guess : System.out.print("Your guess is correct.");
+      break;
+      default : System.out.print("Your guess is correct.");
+    }
+    System.out.print("Answer is "+RandomNumber);
+  }
+}

@@ -1,0 +1,5 @@
+public class method{
+    public static double rectangleBoxVolumeDif(double length,double width,double deptOut,double depthIn){
+    
+  }
+}

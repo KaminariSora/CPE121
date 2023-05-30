@@ -1,0 +1,5 @@
+class NumberPositive{
+  public void Positive(){
+    System.out.print("testing");
+  }
+}

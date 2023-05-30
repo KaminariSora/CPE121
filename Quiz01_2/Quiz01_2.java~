@@ -1,0 +1,6 @@
+import javax.swing.JOptionPane;
+public class Quiz01_2{
+  public static void main(String []args){
+    int side = JOptionPane.showInputMessage("Enter the side(s)");
+  }
+}

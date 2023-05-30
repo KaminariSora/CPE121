@@ -1,0 +1,30 @@
+public class Quiz04_2{
+  public static void main(String []args){
+    double b = 5;
+    double h = 10;
+    double l = 15;
+    double r = 20;
+    double h = 20;
+    double tri = calVolume(b,h,l);
+    double cylinder = calVolume(r,h);
+    double prism = calVolume(r);
+    System.out.print("sphere is "+calVolume);
+    System.out.print("cylinder is "+calVolume);
+    System.out.print("triangle prism is "+calVolume);
+  }
+  
+  public static int calVolune(int b,int h,int l){
+    double result = (b*h*l)/2;
+    return result;
+  }
+  
+  public static double calVolume(double r,double h){
+    doouble result = Math.PI*r*h;
+    return result;
+  }
+  
+  public static double calVolume(double r){
+    double result = (4/3)*Math.PI**r*r*r;
+    return result;
+  }
+}

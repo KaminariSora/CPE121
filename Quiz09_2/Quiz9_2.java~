@@ -1,0 +1,16 @@
+class Quiz9_2{
+  public static void main(String []args){
+    Birth bird = new Bird();
+    System.out.println(bird.howToBirth());
+  }
+}
+
+interface Birth{
+  public String howToBirth();
+}
+
+class Bird implements Birth{
+  public String howToBirth(){
+    return "Birds hatch from eggs.";
+  }
+}

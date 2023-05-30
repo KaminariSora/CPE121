@@ -1,0 +1,5 @@
+public class Quiz7_1{
+  public static void main(String []args){
+    System.out.print("Testing");
+  }
+}

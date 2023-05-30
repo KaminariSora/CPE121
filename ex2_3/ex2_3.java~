@@ -1,0 +1,17 @@
+import java.util.Scanner;
+class ex2_3{
+  public static void main(String []args){
+    Scanner in = new Scanner(System.in);
+    System.out.print("Enter an integer : ");
+    int result = in.nextInt();
+    switch(result%3 == 0 || result%11 == 0){
+      case result%3 !=0 && result%11 !=0: System.out.print("not divisivle by either 3 or 11");
+      break;
+      case result%3 ==0 : System.out.print("is divisible by both 3 or 11,but not both");
+      break;
+      case result%11 ==0 : System.out.print("is divisible by both 3 or 11,but not both");
+      break;
+      default:System.out.print("is divisible by both 3 and 11");
+    }
+  }
+}
